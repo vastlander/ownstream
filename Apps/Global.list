@@ -509,11 +509,6 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-# > Telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telesco.pe
 # > Facebook
 DOMAIN-KEYWORD,.facebook.
 DOMAIN-SUFFIX,facebookmail.com
