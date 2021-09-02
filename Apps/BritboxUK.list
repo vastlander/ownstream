@@ -1,0 +1,29 @@
+# > BritboxUK
+DOMAIN-SUFFIX,britbox.co.uk
+DOMAIN-SUFFIX,magni.itv.com
+DOMAIN-SUFFIX,raygun.com
+DOMAIN-SUFFIX,bb-static.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,braze.eu
+DOMAIN,itv.com
+
+# > Britbox
+USER-AGENT,Britbox*
+DOMAIN-SUFFIX,britbox.com
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN,d2z3p34itxwaj7.cloudfront.net
+
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,co.uk
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
+DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
