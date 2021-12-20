@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,curiositystream.com
 # > MUBI
 DOMAIN-SUFFIX,mubi.com
 DOMAIN-SUFFIX,mubicdn.net
+
+# > AMC
+DOMAIN-SUFFIX,mparticle.com
