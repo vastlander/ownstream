@@ -32,3 +32,5 @@ DOMAIN,www.googleapis.com
 DOMAIN-KEYWORD,www.google.
 # > Google Voice
 DOMAIN,lens.l.google.com
+# > YouTubeKids
+DOMAIN-SUFFIX,youtubekids.com
