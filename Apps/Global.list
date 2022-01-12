@@ -21,63 +21,14 @@ DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,zb.com
-# > Discord
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
-# > Facebook
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbaddins.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,fbworkmail.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,oculuscdn.com
-DOMAIN-SUFFIX,rocksdb.org
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
 # > Github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubusercontent.com
-# > Google
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,.blogspot.
-# > Line
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,line-apps.com
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,naver.jp
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,125.209.208.0/20,no-resolve
-IP-CIDR,147.92.128.0/17,no-resolve
-IP-CIDR,203.104.144.0/21,no-resolve
-# > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
-DOMAIN,az416426.vo.msecnd.net
-DOMAIN,az668014.vo.msecnd.net
 # > The New York Times
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytchina.com
@@ -100,19 +51,6 @@ DOMAIN-SUFFIX,pinterest.se
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
-# > Reddit
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redditmedia.com
-# > Twitter
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,vine.co
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimapia.org
@@ -120,14 +58,6 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
-# > YouTube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
 # > Others
 DOMAIN-SUFFIX,4shared.com
 DOMAIN-SUFFIX,9cache.com
@@ -517,9 +447,6 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-# > Facebook
-DOMAIN-KEYWORD,.facebook.
-DOMAIN-SUFFIX,facebookmail.com
 # > Others
 DOMAIN-SUFFIX,noxinfluencer.com
 DOMAIN-SUFFIX,smartmailcloud.com
@@ -544,7 +471,7 @@ DOMAIN,cacerts.digicert.com
 DOMAIN,crl3.digicert.com
 DOMAIN,crl4.digicert.com
 DOMAIN,ocsp.digicert.com
-# > Others
+# > my Others
 DOMAIN-SUFFIX,cloudcone.com.cn
 DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,metapix.net
