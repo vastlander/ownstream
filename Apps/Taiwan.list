@@ -1,1 +1,9 @@
+# Website
 DOMAIN-SUFFIX,gamecat.cc
+
+# Video
+DOMAIN-SUFFIX,vimeo.com
+
+# idagio
+DOMAIN-SUFFIX,idagio.com
+DOMAIN,idagio-images.global.ssl.fastly.net
