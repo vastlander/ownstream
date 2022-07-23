@@ -9,6 +9,8 @@ DOMAIN,itv.com
 DOMAIN,pes-svod.bde.itv.com
 DOMAIN,cpt.itv.com
 DOMAIN,prod-tv.massive-itv.com
+DOMAIN,itvpnp.stage.ott.irdeto.com
+DOMAIN,itvpnp.stage.ott.irdeto.com
 
 # > Britbox
 USER-AGENT,Britbox*
