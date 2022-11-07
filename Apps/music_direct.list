@@ -1,3 +1,4 @@
-DOMAIN-SUFFIX, qobuz.com
-DOMAIN-SUFFIX, tidal.com
-DOMAIN-SUFFIX, napster.com
+# DIRECT MUSIC
+DOMAIN-SUFFIX,qobuz.com
+DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,napster.com
