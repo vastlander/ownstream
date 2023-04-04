@@ -32,3 +32,6 @@ DOMAIN-SUFFIX,teams.live.com
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN,teams.events.data.microsoft.com
 # DOMAIN,statics.teams.cdn.office.net
+# Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
