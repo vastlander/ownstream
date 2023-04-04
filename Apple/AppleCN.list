@@ -74,3 +74,11 @@ IP-CIDR,144.178.0.0/19,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
+# TV
+PROCESS-NAME,TV
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN,hls.itunes.apple.com // Trailers
+DOMAIN,hls-amt.itunes.apple.com // Trailers
+DOMAIN,play-edge.itunes.apple.com // Unblock Region
