@@ -28,3 +28,4 @@ DOMAIN,lens.l.google.com
 
 # > Google Translate
 DOMAIN-SUFFIX,translate.google.com
+DOMAIN-SUFFIX,translate.googleapis.com
