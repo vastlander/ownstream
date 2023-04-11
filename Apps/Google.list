@@ -25,3 +25,6 @@ DOMAIN,www.googleapis.com
 
 # > Google Voice
 DOMAIN,lens.l.google.com
+
+# > Google Translate
+DOMAIN-SUFFIX,translate.google.com
