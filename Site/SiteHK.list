@@ -1,2 +1,6 @@
 # Moxmoe
 DOMAIN,mox.moe
+
+# Nintendo
+DOMAIN,accounts.nintendo.com
+DOMAIN-SUFFIX,nintendo.com
