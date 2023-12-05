@@ -16,3 +16,6 @@ USER-AGENT,Anime*
 
 # 痞客邦
 DOMAIN-SUFFIX,pixnet.net
+
+# 电子书
+DOMAIN-SUFFIX,ebook.tongli.com.tw
