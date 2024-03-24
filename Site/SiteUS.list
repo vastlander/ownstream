@@ -1,3 +1,6 @@
 # myanimelist
 DOMAIN-SUFFIX,myanimelist.net
 DOMAIN,api.myanimelist.net
+
+# animecorner
+DOMAIN-SUFFIX,animecorner.me
