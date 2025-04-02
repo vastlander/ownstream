@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,drmtoday.com
 DOMAIN-SUFFIX,braze.eu
 
 # > Crunchyroll
+DOMAIN,imgsrv.crunchyroll.com
+DOMAIN,www.crunchyroll.com
 DOMAIN-SUFFIX,crunchyroll.com
 
 
