@@ -7,18 +7,8 @@ DOMAIN-SUFFIX,discoveryplus.com
 DOMAIN-SUFFIX,discoveryplus.in
 DOMAIN-SUFFIX,dnitv.com
 
-
 # > CuriosityStream
 DOMAIN-SUFFIX,curiositystream.com
-
-# > MUBI
-DOMAIN-SUFFIX,mubi.com
-DOMAIN-SUFFIX,tracking.mubi.com
-DOMAIN-SUFFIX,mubicdn.net
-DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,drmtoday.com
-DOMAIN-SUFFIX,braze.eu
-
 
 # > AMC
 DOMAIN-SUFFIX,mparticle.com
@@ -28,5 +18,4 @@ DOMAIN-SUFFIX,amcn.com
 # > Marquee_TV
 DOMAIN-SUFFIX,viewlift.com
 
-# > Crunchyroll
-DOMAIN-SUFFIX,crunchyroll.com
+
