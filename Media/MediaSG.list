@@ -1,3 +1,10 @@
+# > Crunchyroll 核心服务 + 登录所需
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,imgsrv.crunchyroll.com
+DOMAIN-SUFFIX,static.crunchyroll.com
+DOMAIN-SUFFIX,api.crunchyroll.com
+DOMAIN-SUFFIX,crunchyroll.diadm.ns.cloudflare.com  # DNS/CDN 线路
+
 # > HBO NOW & Max
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
@@ -24,10 +31,5 @@ DOMAIN-SUFFIX,mubicdn.net
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,drmtoday.com
 DOMAIN-SUFFIX,braze.eu
-
-# > Crunchyroll
-DOMAIN,imgsrv.crunchyroll.com
-DOMAIN,www.crunchyroll.com
-DOMAIN-SUFFIX,crunchyroll.com
 
 
