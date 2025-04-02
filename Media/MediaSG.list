@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,crunchyroll.com
 DOMAIN-SUFFIX,imgsrv.crunchyroll.com
 DOMAIN-SUFFIX,static.crunchyroll.com
 DOMAIN-SUFFIX,api.crunchyroll.com
+DOMAIN-SUFFIX,edge.api.bamgrid.com         # 播放/授权用
+DOMAIN-SUFFIX,datadoghq-browser-agent.com  # 页面加载相关
 DOMAIN-SUFFIX,crunchyroll.diadm.ns.cloudflare.com  # DNS/CDN 线路
 
 # > HBO NOW & Max
