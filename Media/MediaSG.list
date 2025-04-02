@@ -17,4 +17,15 @@ DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN,cdn.registerdisney.go.com
 
+# > MUBI
+DOMAIN-SUFFIX,mubi.com
+DOMAIN-SUFFIX,tracking.mubi.com
+DOMAIN-SUFFIX,mubicdn.net
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,drmtoday.com
+DOMAIN-SUFFIX,braze.eu
+
+# > Crunchyroll
+DOMAIN-SUFFIX,crunchyroll.com
+
 
