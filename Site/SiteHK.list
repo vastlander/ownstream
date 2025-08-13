@@ -2,7 +2,45 @@
 DOMAIN,mox.moe
 DOMAIN,kox.moe
 
-
 # Nintendo
 DOMAIN,accounts.nintendo.com
 DOMAIN-SUFFIX,nintendo.com
+
+# Steam 商店界面和社区流量通过代理
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,store.steampowered.com
+
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,api.github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,avatars.githubusercontent.com
+DOMAIN-SUFFIX,user-images.githubusercontent.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,dependabot.com
+
+# GitHub Actions / Runner 服务相关
+DOMAIN-SUFFIX,actions.githubusercontent.com
+DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,pkg.actions.githubusercontent.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,results-receiver.actions.githubusercontent.com
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,objects-origin.githubusercontent.com
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+DOMAIN-SUFFIX,github-registry-files.githubusercontent.com
+DOMAIN-SUFFIX,pkg.github.com
+DOMAIN-SUFFIX,pkg-containers.githubusercontent.com
+DOMAIN-SUFFIX,github-cloud.githubusercontent.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,dependabot-actions.githubapp.com
+DOMAIN-SUFFIX,release-assets.githubusercontent.com
