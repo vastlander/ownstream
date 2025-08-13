@@ -11,7 +11,17 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,store.steampowered.com
 
 # Nodeseek
-DOMAIN,nodeseek.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,edge.nodeseek.com
+DOMAIN-SUFFIX,summary.nodeseek.com
+DOMAIN-SUFFIX,cdn.nodeseek.com
+DOMAIN-SUFFIX,www.nodeseek.com
+DOMAIN-SUFFIX,local.nodeseek.com
+DOMAIN-SUFFIX,rss.nodeseek.com
+DOMAIN-SUFFIX,webmail.nodeseek.com
+DOMAIN-SUFFIX,secure.nodeseek.com
+DOMAIN-SUFFIX,alpha.nodeseek.com
+DOMAIN-SUFFIX,warning.nodeseek.com
 
 # Github
 DOMAIN-SUFFIX,github.com
