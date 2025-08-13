@@ -1,0 +1,29 @@
+# 主站域名
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,crunchyrollsrv.com
+DOMAIN-SUFFIX,crunchyrollcdn.com
+DOMAIN-KEYWORD,crunchyroll
+
+# 静态资源与视频 CDN
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,edgecastcdn.net
+DOMAIN-SUFFIX,cloudfront.net
+
+# DRM 授权（FairPlay/Widevine）
+DOMAIN-SUFFIX,v.vrv.co
+DOMAIN-SUFFIX,vrv.co
+
+# 其他可能用到的 API/追踪
+DOMAIN-SUFFIX,superawesome.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,fastly.net
+
+# > Crunchyroll 核心服务 + 登录所需
+DOMAIN-SUFFIX,imgsrv.crunchyroll.com
+DOMAIN-SUFFIX,static.crunchyroll.com
+DOMAIN-SUFFIX,api.crunchyroll.com
+DOMAIN-SUFFIX,edge.api.bamgrid.com
+DOMAIN-SUFFIX,datadoghq-browser-agent.com
+DOMAIN-SUFFIX,crunchyroll.diadm.ns.cloudflare.com
