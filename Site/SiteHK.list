@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,store.steampowered.com
 
+# Nodeseek
+DOMAIN,nodeseek.com
+
 # Github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,api.github.com
