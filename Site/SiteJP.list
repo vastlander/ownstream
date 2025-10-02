@@ -1,0 +1,20 @@
+# =========================
+# Amazon Japan
+# =========================
+
+# 主域及所有子域（购物、卖家、联盟等均涵盖）
+DOMAIN-SUFFIX,amazon.co.jp
+
+# 公益版本（smile.amazon.co.jp 独立域）
+DOMAIN,smile.amazon.co.jp
+
+# 静态资源 / 图片 CDN
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,images-na.ssl-images-amazon.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,m.media-amazon.com
+
+# 广告与日志服务
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,fls-fe.amazon.co.jp
+DOMAIN-SUFFIX,unagi.amazon.co.jp
