@@ -1,14 +1,24 @@
+# ---------- YouTube 相关服务 (走 US 策略组) ----------
+
 # > Vimeo
 DOMAIN-SUFFIX,vimeo.com
 
-# > YouTube
+# 主域与视频分发
 DOMAIN,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-KEYWORD,googlevideo
+DOMAIN-KEYWORD,youtube
 USER-AGENT,*YouTube*
 USER-AGENT,com.google.ios.youtube*
+DOMAIN-SUFFIX,youtube-nocookie.com
+
+# YouTube 广告与推送相关
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,youtube-nocookie.com
 
 # > Youtube Music
 USER-AGENT,YouTubeMusic*
@@ -17,4 +27,3 @@ DOMAIN-SUFFIX,music.youtube.com
 
 # > YouTubeKids
 DOMAIN-SUFFIX,youtubekids.com
-
