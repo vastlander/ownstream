@@ -1,3 +1,12 @@
+# ---------- 其他 Google 服务 (走 HK 策略组) ----------
+# 主域与通用接口
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,withgoogle.com
+
 # > Google
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
@@ -25,9 +34,6 @@ DOMAIN-SUFFIX,lh4.googleusercontent.com
 DOMAIN-SUFFIX,lh5.googleusercontent.com
 DOMAIN-SUFFIX,lh6.googleusercontent.com
 
-# > Chromecast with Google TV
-DOMAIN-KEYWORD,pa.google
-
 # > Google Drive
 PROCESS-NAME,Backup and Sync
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
@@ -46,7 +52,25 @@ DOMAIN,lens.l.google.com
 DOMAIN-SUFFIX,translate.google.com
 DOMAIN-SUFFIX,translate.googleapis.com
 
-# > Google (IP Blackhole)
+# 邮件与办公套件
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,sheets.google.com
+DOMAIN-SUFFIX,slides.google.com
+DOMAIN-SUFFIX,forms.google.com
+
+# 分析与广告服务
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,doubleclick.net
+
+# Play 服务与认证
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,accounts.google.com
+
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,advertisercommunity.com
 DOMAIN-SUFFIX,ampproject.org
@@ -91,6 +115,3 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
