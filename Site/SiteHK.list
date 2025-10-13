@@ -57,3 +57,41 @@ DOMAIN-SUFFIX,github-cloud.githubusercontent.com
 DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
 DOMAIN-SUFFIX,dependabot-actions.githubapp.com
 DOMAIN-SUFFIX,release-assets.githubusercontent.com
+
+# =======================================
+# Tunemymusic (Music Transfer Service)
+# Official: https://www.tunemymusic.com
+# Optimized Surge Rule Set
+# =======================================
+
+# --- Core domain & subdomains ---
+DOMAIN-SUFFIX,tunemymusic.com
+DOMAIN-KEYWORD,tunemymusic
+
+# --- Analytics & static resources ---
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,gstatic.com
+
+# --- Customer service / chat ---
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# --- Payment gateway (Stripe) ---
+DOMAIN-SUFFIX,stripe.com
+
+# --- Error logging / monitoring ---
+DOMAIN-SUFFIX,sentry.io
+
+# --- CDN & hosting (AWS) ---
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.192.0.0/16,no-resolve
+IP-CIDR,204.246.172.0/23,no-resolve
+IP-CIDR,205.251.192.0/19,no-resolve
+
+# =======================================
+# End of Tunemymusic Rules
+# =======================================
