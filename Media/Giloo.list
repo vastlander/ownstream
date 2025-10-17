@@ -1,43 +1,55 @@
-# --- 补充可能用到的视频 / CDN 域名 ---
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,akamaiedge.net
-DOMAIN-SUFFIX,akamaitechnologies.com
-DOMAIN-SUFFIX,akamaitechnologies.co
-DOMAIN-SUFFIX,akamaitechnologies.net
-DOMAIN-SUFFIX,cdngateway.net
-DOMAIN-SUFFIX,edgecastcdn.net
-DOMAIN-SUFFIX,rlcdn.com
-DOMAIN-SUFFIX,akamaitechnologies.co.jp
-DOMAIN-SUFFIX,akamaitechnologies.cn
+# =======================================
+# Giloo - Documentary Streaming Platform
+# 安全精确规则（不影响其他流媒体）
+# =======================================
 
+# --- 核心主站 & 子域名 ---
+DOMAIN-SUFFIX,giloo.com
+DOMAIN-KEYWORD,giloo
+
+# --- Giloo 官方 API / 授权 / GEO 接口 ---
+DOMAIN-SUFFIX,api.giloo.com
+DOMAIN-SUFFIX,auth.giloo.com
+DOMAIN-SUFFIX,geo.giloo.com
+DOMAIN-SUFFIX,player.giloo.com
+DOMAIN-SUFFIX,cdn.giloo.com
+DOMAIN-SUFFIX,media.giloo.com
+DOMAIN-SUFFIX,video.giloo.com
+DOMAIN-SUFFIX,vod.giloo.com
+DOMAIN-SUFFIX,content.giloo.com
+
+# --- Vimeo 播放服务（Giloo 使用 Vimeo 托管视频）---
+DOMAIN-SUFFIX,player.vimeo.com
+DOMAIN-SUFFIX,api.vimeo.com
+DOMAIN-SUFFIX,files.vimeo.com
 DOMAIN-SUFFIX,stream.vimeo.com
 DOMAIN-SUFFIX,vod.vimeo.com
 DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,vimeocdn.net
 
+# --- 视频分段 / CDN / 存储（专门给 Giloo 用的视频流）---
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,s3-accelerate.amazonaws.com
 DOMAIN-SUFFIX,s3.dualstack.amazonaws.com
-DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,edgecastcdn.net
 
-DOMAIN-SUFFIX,cdn.giloo.com
-DOMAIN-SUFFIX,media.giloo.com
-DOMAIN-SUFFIX,cdn-video.giloo.com
-DOMAIN-SUFFIX,video.giloo.com
-DOMAIN-SUFFIX,play.giloo.com
-DOMAIN-SUFFIX,content.giloo.com
-DOMAIN-SUFFIX,vod.giloo.com
-
-# --- 字符关键词兜底 ---
+# --- Giloo 视频流专用兜底关键词（安全，不通杀）---
 DOMAIN-KEYWORD,m3u8
 DOMAIN-KEYWORD,ts
-DOMAIN-KEYWORD,seg
 DOMAIN-KEYWORD,vod
-DOMAIN-KEYWORD,stream
 
-# --- IP 段补充（针对 AWS / CDN 常见块） ---
+# --- 常用 IP 段（AWS / Vimeo CDN）---
 IP-CIDR,3.0.0.0/8,no-resolve
 IP-CIDR,13.0.0.0/8,no-resolve
 IP-CIDR,18.0.0.0/8,no-resolve
 IP-CIDR,52.0.0.0/8,no-resolve
 IP-CIDR,54.0.0.0/8,no-resolve
+
+# =======================================
+# End of Giloo Rules
+# =======================================
