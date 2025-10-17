@@ -1,46 +1,43 @@
-# =======================================
-# Giloo - Documentary Streaming Platform
-# Optimized Surge Rule Set
-# =======================================
+# --- 补充可能用到的视频 / CDN 域名 ---
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaitechnologies.com
+DOMAIN-SUFFIX,akamaitechnologies.co
+DOMAIN-SUFFIX,akamaitechnologies.net
+DOMAIN-SUFFIX,cdngateway.net
+DOMAIN-SUFFIX,edgecastcdn.net
+DOMAIN-SUFFIX,rlcdn.com
+DOMAIN-SUFFIX,akamaitechnologies.co.jp
+DOMAIN-SUFFIX,akamaitechnologies.cn
 
-# --- Giloo core ---
-DOMAIN-SUFFIX,giloo.com
-DOMAIN-KEYWORD,giloo
-
-# --- Video hosting / CDN ---
-DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,stream.vimeo.com
+DOMAIN-SUFFIX,vod.vimeo.com
 DOMAIN-SUFFIX,vimeocdn.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,vimeocdn.net
+
+DOMAIN-SUFFIX,s3-accelerate.amazonaws.com
+DOMAIN-SUFFIX,s3.dualstack.amazonaws.com
 DOMAIN-SUFFIX,s3.amazonaws.com
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,llnwd.net
+DOMAIN-SUFFIX,media-amazon.com
 
-IP-CIDR,3.160.0.0/12,no-resolve
-IP-CIDR,3.208.0.0/12,no-resolve
-IP-CIDR,13.32.0.0/15,no-resolve
-IP-CIDR,52.84.0.0/15,no-resolve
-IP-CIDR,52.216.0.0/15,no-resolve
-IP-CIDR,52.217.0.0/16,no-resolve
-IP-CIDR,54.192.0.0/16,no-resolve
-IP-CIDR,204.246.172.0/23,no-resolve
-IP-CIDR,205.251.192.0/19,no-resolve
+DOMAIN-SUFFIX,cdn.giloo.com
+DOMAIN-SUFFIX,media.giloo.com
+DOMAIN-SUFFIX,cdn-video.giloo.com
+DOMAIN-SUFFIX,video.giloo.com
+DOMAIN-SUFFIX,play.giloo.com
+DOMAIN-SUFFIX,content.giloo.com
+DOMAIN-SUFFIX,vod.giloo.com
 
-# --- Analytics & static resources ---
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,gstatic.com
+# --- 字符关键词兜底 ---
+DOMAIN-KEYWORD,m3u8
+DOMAIN-KEYWORD,ts
+DOMAIN-KEYWORD,seg
+DOMAIN-KEYWORD,vod
+DOMAIN-KEYWORD,stream
 
-# --- Customer service / chat ---
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-
-# --- Payment gateway ---
-DOMAIN-SUFFIX,stripe.com
-
-# --- Error logging / monitoring ---
-DOMAIN-SUFFIX,sentry.io
-# =======================================
-# End of Giloo Rules
-# =======================================
+# --- IP 段补充（针对 AWS / CDN 常见块） ---
+IP-CIDR,3.0.0.0/8,no-resolve
+IP-CIDR,13.0.0.0/8,no-resolve
+IP-CIDR,18.0.0.0/8,no-resolve
+IP-CIDR,52.0.0.0/8,no-resolve
+IP-CIDR,54.0.0.0/8,no-resolve
