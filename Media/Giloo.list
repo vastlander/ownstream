@@ -1,19 +1,28 @@
 # =======================================
 # Giloo - Documentary Streaming Platform
 # Optimized Surge Rule Set
-# Website: https://www.giloo.com
 # =======================================
 
-# --- Core domain & subdomains ---
+# --- Giloo core ---
 DOMAIN-SUFFIX,giloo.com
 DOMAIN-KEYWORD,giloo
 
 # --- Video hosting / CDN ---
 DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,llnwd.net
+
+IP-CIDR,3.160.0.0/12,no-resolve
+IP-CIDR,3.208.0.0/12,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,52.216.0.0/15,no-resolve
+IP-CIDR,52.217.0.0/16,no-resolve
 IP-CIDR,54.192.0.0/16,no-resolve
 IP-CIDR,204.246.172.0/23,no-resolve
 IP-CIDR,205.251.192.0/19,no-resolve
@@ -32,7 +41,6 @@ DOMAIN-SUFFIX,stripe.com
 
 # --- Error logging / monitoring ---
 DOMAIN-SUFFIX,sentry.io
-
 # =======================================
 # End of Giloo Rules
 # =======================================
