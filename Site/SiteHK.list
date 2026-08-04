@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,store.steampowered.com
 
+# 机场
+DOMAIN-SUFFIX,nexitallysafe.com
+
 # Nodeseek
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,edge.nodeseek.com
